@@ -24,9 +24,12 @@
 # the branch synced by Flux in-cluster.
 
 # Prerequisites
-# - yq v4.6
-# - kustomize v4.1
-# - kubeconform v0.4.12
+# - yq 
+# - kustomize 
+# - kubeconform
+
+# This script is modified - the original script can be found here:
+# https://raw.githubusercontent.com/fluxcd/flux2-multi-tenancy/main/scripts/validate.sh
 
 set -o errexit
 
